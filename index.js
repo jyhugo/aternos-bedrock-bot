@@ -4,7 +4,7 @@ function criarBot() {
     const client = createClient({
         host: 'CraftIFMA.aternos.me', // 🔁 Substitua com o IP do Aternos
         port: 21968,                     // Padrão do Bedrock
-        username: 'Pedrinho'            // Nick do bot
+        username: 'Hedrinho'            // Nick do bot
     });
 
     client.on('join', () => {
