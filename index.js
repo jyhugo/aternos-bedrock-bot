@@ -2,9 +2,9 @@ const { createClient } = require('bedrock-protocol');
 
 function criarBot() {
     const client = createClient({
-        host: 'SEU_SERVIDOR.aternos.me', // 🔁 Substitua com o IP do Aternos
-        port: 19132,                     // Padrão do Bedrock
-        username: 'BotRender'            // Nick do bot
+        host: 'CraftIFMA.aternos.me', // 🔁 Substitua com o IP do Aternos
+        port: 21968,                     // Padrão do Bedrock
+        username: 'Pedrinho'            // Nick do bot
     });
 
     client.on('join', () => {
