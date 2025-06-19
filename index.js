@@ -22,3 +22,8 @@ function criarBot() {
 }
 
 criarBot();
+
+// Adicione isso no final do index.js
+require('http').createServer((req, res) => {
+  res.end('Bot online');
+}).listen(process.env.PORT || 3000);
